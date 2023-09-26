@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T09:16:19.078Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="oqGtQrvC6j8j4ApJHTvT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T11:37:11.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="bjyNyV7tresFyUKfl52k" version="21.8.2" type="github">
   <diagram name="Seite-1" id="0ySfGMjDMNR1A7NMUGDY">
-    <mxGraphModel>
+    <mxGraphModel dx="1000" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5VodhbXVpa5iztzGGIQc-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-550" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-2" value="input (s)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.64;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-1" target="5VodhbXVpa5iztzGGIQc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-4" target="5VodhbXVpa5iztzGGIQc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-4" value="if x &amp;gt; 60;&lt;br&gt;if x &amp;lt; 3600" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-320" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-6" target="5VodhbXVpa5iztzGGIQc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-6" value="user input = x" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-2" target="5VodhbXVpa5iztzGGIQc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-10" value="min" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-12" target="5VodhbXVpa5iztzGGIQc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-12" value="calculate x / 60&amp;nbsp;&lt;br&gt;x % 60" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-13" value="output of x%60= sec" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-14" value="output of x / 60&lt;br&gt;= &quot;min&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="-150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.64;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-12" target="5VodhbXVpa5iztzGGIQc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-17" value="else if x &amp;gt; 3600;&lt;br&gt;if x &amp;lt; 86400" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-320" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-19" value="hours" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="-350" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-22" value="calculate x / 60&lt;br&gt;x % 60" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.564;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-10" target="5VodhbXVpa5iztzGGIQc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-26" value="output" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-27" target="5VodhbXVpa5iztzGGIQc-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-27" value="value of x / 60&lt;br&gt;= hours" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VodhbXVpa5iztzGGIQc-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.43;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VodhbXVpa5iztzGGIQc-22" target="5VodhbXVpa5iztzGGIQc-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
